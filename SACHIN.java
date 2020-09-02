@@ -30,6 +30,9 @@ public class SACHIN extends Applet implements Runnable
         th1=new Thread(this);
         th1.start();
     }
+
+
+//Implimenting clock 
     public void paint(Graphics g)
     {
         Calendar cal=new GregorianCalendar();
